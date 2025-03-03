@@ -74,7 +74,7 @@ Invoke-Expression $DecodedCommand
 - Quay trở lại FTK Imager lấy file `secret.txt` để giải mã nó ra.
 - Tạo một folder chứa file nội dung của code giải mã `decrypt.ps1` và `secret.txt` và chạy file:
 ```powershell
-powershell -c decrypt.ps`
+powershell -c decrypt.ps
 ```
 - Sau đó đọc file và thấy nữa sau của flag:
 ```
