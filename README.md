@@ -58,7 +58,7 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Sp4c3K/holahela/main/h
 EHCTF{N3tw0rk_
 ```
 
-Tiếp tục quay trờ lại FTK imager đến folder Documents thì thấy khá nhiều file `pcap`. Mình quyết định đọc file `28012025.pcapng` vì đây file `holahela.ps1` được chạy.
+Tiếp tục quay trờ lại FTK imager đến folder Documents thì thấy khá nhiều file `pcap`. Mình quyết định đọc file `28012025.pcapng` vì đây file tên ngày mà `holahela.ps1` được chạy.
 
 Lọc qua các protocol **SMB** và đọc qua packets thì mình tìm được đoạn mã sau:
 
