@@ -2,6 +2,29 @@
 
 ## Forensic
 
+### A in Q
+
+Author: Sp4c3K
+
+Description: Là một nhà phân tích bảo mật, kĩ năng phân tích gói tin liệu có quan trọng??
+
+Flag Format: EHCTF{...}
+
+#### Làm bài
+
+Mình tải file mở file Wireshark lên đọc các packet trong **TCP protocol** thì mình thấy được đoạn mã **Base64** sau:
+
+```
+iVBORw0KGgoAAAANSUhEUgAAAKUAAAClCAAAAAAYQGIGAAABbElEQVR42u3bwbKCMBAEQP7/p9+7WxhnA0VlSeeEgrE5rIRZPP46jIOSkpKSkpKSkpKSkvJe5fF7fBz8sXX2sj4zJWVX5feCG377+OD6zJSUXZVn9Xe2Nyj50syUlPsoz6j1z1JS7qgcXyspKXdUpucwJgQOSso3KYMEYnLr4QSGkvJJZRx3/55/gfSfkvLxfs+4Jr8uKINfhbSyKSm7KtNEPL7DupC6U1I2VE6mgOMJ6tdZSspeynGPKWjiprnhTT1dSsrFlGnoMc4Dg72XVsGUlGsr6wF5yr+zxikp11EGi8zJkg8up5SUrZVBDJE+Ih48pkdJ+SZlvZ6vtIcpKfsrSz3dyUw+fY+Sspey9NRP6VZusrtLSdlLGVR28HR4cGN25yqYknId5eT/KCaXlpSUmynTJegRDkrKfZSlXm0QrlNSvkR5T6Jx5RwoKRsq62F4WsDpUpWSsqFyuUFJSUlJSUlJSUlJSTk//gEGUEO/WqFCOAAAAABJRU5ErkJggg==
+```
+
+**Kết quả**:
+```
+EHCTF{D4t4_G47h3r1ng}
+```
+
+---
+
 ### Holahela
 - **Author**: Sp4c3K
 - **Mô tả**: Tôi sử dụng chức năng share file và chạy ra ngoài một lúc. Lúc tôi về một số file tài liệu quan trọng của tôi đã bị mã hóa, không có chúng tôi sẽ bị đuổi việc mất. Cứu được ca này không ạ? =(((
